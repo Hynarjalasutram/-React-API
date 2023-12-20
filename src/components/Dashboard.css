@@ -1,0 +1,106 @@
+.dashboard{
+    width: 76%;
+    height: auto;
+    position: relative;
+    left: 40px;
+    box-sizing: border-box;
+}
+.dashboard h2{
+    margin: 18px 0px;
+}
+.dashboardtop{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.dashboardtop1{
+    background-color: white;
+    height: 20vh;
+    width: 25%;
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dashboardtop1 .left{
+    height: 15vh;
+    width: 40%;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: relative;
+    top: 16px;
+    left: 5px;
+}
+.left i{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+.right{
+    position: absolute;
+    left: 48%;
+    top: 25%;
+    font-size: 12px;
+}
+.dashboardtop2{
+    background-color: white;
+    height: 20vh;
+    width: 25%;
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dashboardtop2 .left2{
+    height: 15vh;
+    width: 40%;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: relative;
+    top: 16px;
+    left: 5px;
+}
+.left2 i{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+.right2{
+    position: absolute;
+    left: 48%;
+    top: 25%;
+    font-size: 12px;
+}
+.dashboardtop3{
+    background-color: white;
+    height: 20vh;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dashboardtop4{
+    background-color: white;
+    height: 20vh;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dashboardmid{
+    width: 100%;
+    height: auto;
+    gap: 15px;
+    display: flex;
+}
+.dbmgraph{
+    width: 64%;
+    background-color: white;
+    height: auto;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
+.dbmpie{
+    width: 35%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
